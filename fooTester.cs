@@ -18,7 +18,8 @@ public sealed class footester : UserMacro
 	public string foo { get; set; }
 
 	/// <summary>
-	/// wrote this to figure out how to set input paramter value. Needed it to clear input after macro run so input wasn't doubly applied.
+	/// wrote this test Genetec Macro to figure out how to set input paramter value. 
+	/// I needed the capability to clear input in another macro ran so input wasn't doubly applied if the macro was run again.
 	/// </summary>
 	Macro _footester = null;
 	public override void Execute()
